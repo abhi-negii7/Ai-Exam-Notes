@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+/* PDF formatting */
+.pdf-content {
+  background: #ffffff;
+  color: #333333;
+  width: 100%;
+  overflow: visible;
+  line-height: 1.6;
+}
+
+.pdf-content p,
+.pdf-content li {
+  line-height: 1.7 !important;
+  overflow: visible !important;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+.pdf-content h1,
+.pdf-content h2,
+.pdf-content h3 {
+  page-break-after: avoid;
+}
+
+.pdf-content p,
+.pdf-content li,
+.pdf-content img {
+  page-break-inside: avoid;
+}
+
+.pdf-content section {
+  overflow: visible !important;
+}

@@ -1,0 +1,1 @@
+npm i express mongoose nodemon cookie-parser jsonwebtoken cors dotenv pdfkit
