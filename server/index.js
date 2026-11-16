@@ -29,7 +29,7 @@ app.post(
 // credentials: true allows cookies to be sent with requests.
 app.use(
   cors({
-    origin: " http://localhost:5173",
+    origin: "https://ai-exam-notesclient-vb2s.onrender.com",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   })
