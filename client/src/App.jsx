@@ -11,7 +11,7 @@ import PaymentSuccess from "../pages/paymentSuccess";
 import PaymentFailed from "../pages/paymentFailed";
 import PaymentCancel from "../pages/PaymentCancel";
 
-export const serverUrl = "http://localhost:3000";
+export const serverUrl = "https://ai-exam-notesserver-kb4z.onrender.com";
 
 function App() {
   const dispatch = useDispatch();
