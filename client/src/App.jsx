@@ -7,8 +7,8 @@ import { useDispatch, useSelector } from "react-redux";
 import Notes from "../pages/Notes";
 import History from "../pages/History";
 import Pricing from "../pages/Pricing";
-import PaymentSuccess from "../pages/paymentSuccess";
-import PaymentFailed from "../pages/paymentFailed";
+import PaymentSuccess from "../pages/PaymentSuccess";
+import PaymentFailed from "../pages/PaymentFailed";
 import PaymentCancel from "../pages/PaymentCancel";
 
 export const serverUrl = "https://ai-exam-notesserver-kb4z.onrender.com";
